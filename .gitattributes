@@ -1,0 +1,5 @@
+*.ttf linguist-language=JavaScript
+*.svg linguist-language= JavaScript
+*.json linguist-language=JavaScript
+*.md linguist-language=JavaScript
+*.html linguist-language=JavaScript
