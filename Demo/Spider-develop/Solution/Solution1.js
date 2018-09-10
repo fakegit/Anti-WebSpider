@@ -15,6 +15,8 @@
 					$("#year").html(getRawData(data.year,log));
 					$("#month").html(getRawData(data.month,log));
 					$("#day").html(getRawData(data.day,log));
+
+					console.log($("#day").val());
 				}
 			},
 			error: function (XMLHttpRequest, textStatus, errorThrown) {
