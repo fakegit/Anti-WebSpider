@@ -607,4 +607,4 @@ $ node file-Server.js
 
 1. 先设计一个字体图标的制作规则
 2. JS 接入之后修改设置字体的处理展示逻辑
-3. 如果使用传统的网页开发技术（比如传统的 jQuery 模式）建议你将业务设计的 JS 进行 加密混淆，这里是一个[混淆工具](http://www.javascriptobfuscator.com/Javascript-Obfuscator.aspx)，增加反爬成本。如果是使用的 webpack 类的方式那么可以设置压缩规则，代码可读性也下降了。（当然推荐读者自己去研究下在使用 webpack 模式下如何让打包出的代码更加难以阅读，因为我的经验是即使 Vue、React 脚手架打包出的工程的 js， 在 Chrome 开发者模式下点击代码左下角的  **{} ** 按钮（Pretty Print） 可以对混淆后的代码进行格式化，可读性又好一些了，还是方便调试和阅读）
+3. 如果使用传统的网页开发技术（比如传统的 jQuery 模式）建议你将业务设计的 JS 进行 加密混淆，这里是一个[混淆工具](http://www.javascriptobfuscator.com/Javascript-Obfuscator.aspx)，增加反爬成本。如果是使用的 webpack 类的方式那么可以设置压缩规则，代码可读性也下降了。（当然推荐读者自己去研究下在使用 webpack 模式下如何让打包出的代码更加难以阅读，因为我的经验是即使 Vue、React 脚手架打包出的工程的 js， 在 Chrome 开发者模式下点击代码左下角的  **{}** 按钮（Pretty Print） 可以对混淆后的代码进行格式化，可读性又好一些了，还是方便调试和阅读）
